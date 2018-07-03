@@ -1,41 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en" original="MICROSOFT.WEB.LIBRARYMANAGER.VSIX/RESOURCES/TEXT.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a" target-language="tr">
+  <file datatype="xml" source-language="en" target-language="tr" original="MICROSOFT.WEB.LIBRARYMANAGER.VSIX/RESOURCES/TEXT.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
     <header>
       <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6810.0" tool-company="Microsoft" />
     </header>
     <body>
       <group id="MICROSOFT.WEB.LIBRARYMANAGER.VSIX/RESOURCES/TEXT.RESX" datatype="resx">
         <trans-unit id="CleanLibrariesStarted" translate="yes" xml:space="preserve">
-          <source>Clean libraries started...</source><target state="translated">Kitaplıkları temizleme işlemi başladı...</target>
+          <source>Clean libraries started...</source>
+          <target state="translated">Kitaplıkları temizleme işlemi başladı...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">When the "Clean" command is being executed</note>
         </trans-unit>
         <trans-unit id="CleanLibrariesSucceeded" translate="yes" xml:space="preserve">
-          <source>Clean libraries succeeded</source><target state="translated">Kitaplıklar başarıyla temizlendi</target>
+          <source>Clean libraries succeeded</source>
+          <target state="translated">Kitaplıklar başarıyla temizlendi</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Status message</note>
         </trans-unit>
         <trans-unit id="LibraryRestoredNoChange" translate="yes" xml:space="preserve">
-          <source>Restore completed. Files already up-to-date</source><target state="translated">Geri yükleme tamamlandı. Dosyalar zaten güncel</target>
+          <source>Restore completed. Files already up-to-date</source>
+          <target state="translated">Geri yükleme tamamlandı. Dosyalar zaten güncel</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Status message</note>
         </trans-unit>
         <trans-unit id="Loading" translate="yes" xml:space="preserve">
-          <source>Loading...</source><target state="translated">Yükleniyor...</target>
+          <source>Loading...</source>
+          <target state="translated">Yükleniyor...</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Used in JSON editor for Intellisense</note>
         </trans-unit>
         <trans-unit id="PackagesCouldNotBeLoaded" translate="yes" xml:space="preserve">
-          <source>Packages could not be loaded</source><target state="translated">Paketler yüklenemedi</target>
+          <source>Packages could not be loaded</source>
+          <target state="translated">Paketler yüklenemedi</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Used in installer dialog</note>
         </trans-unit>
         <trans-unit id="CheckForUpdates" translate="yes" xml:space="preserve">
-          <source>Check for updates</source><target state="translated">Güncelleştirmeleri denetle</target>
+          <source>Check for updates</source>
+          <target state="translated">Güncelleştirmeleri denetle</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Used in JSON editor light bulb</note>
         </trans-unit>
         <trans-unit id="NoUpdatesFound" translate="yes" xml:space="preserve">
-          <source>No updates found at this time</source><target state="translated">Şu anda güncelleştirme bulunamadı</target>
+          <source>No updates found at this time</source>
+          <target state="translated">Şu anda güncelleştirme bulunamadı</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Used in message box when light bulb found no updates</note>
         </trans-unit>
         <trans-unit id="UninstallLibrary" translate="yes" xml:space="preserve">
-          <source>Uninstall {0}</source><target state="translated">{0} uygulamasını kaldır</target>
+          <source>Uninstall {0}</source>
+          <target state="translated">{0} uygulamasını kaldır</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Used in JSON editor light bulb</note>
         </trans-unit>
         <trans-unit id="NugetInstallPrompt" translate="yes" xml:space="preserve">
@@ -43,80 +51,115 @@
 
 This may require an internet connection.
 
-Do you want to continue?</source><target state="translated">MSBuild işlemini artırmak için bir NUGet paketi yüklenecek ancak projeye dosya eklenmeyecek. Bu işlem İnternet bağlantısı gerektirebilir. Devam etmek istiyor musunuz?</target>
+Do you want to continue?</source>
+          <target state="translated">MSBuild işlemini artırmak için bir NUGet paketi yüklenecek ancak projeye dosya eklenmeyecek. Bu işlem İnternet bağlantısı gerektirebilir. Devam etmek istiyor musunuz?</target>
         </trans-unit>
         <trans-unit id="TypeToSearch" translate="yes" xml:space="preserve">
-          <source><it id="1" pos="open">&lt;Type to search&gt;</it></source><target state="translated">&lt;Aramak için yazın&gt;</target>
+          <source><it id="1" pos="open">&lt;Type to search&gt;</it></source>
+          <target state="translated">&lt;Aramak için yazın&gt;</target>
         </trans-unit>
         <trans-unit id="AddClientSideLibrary" translate="yes" xml:space="preserve">
-          <source>Add Client-Side Library</source><target state="translated">İstemci Tarafı Kitaplık Ekle</target>
+          <source>Add Client-Side Library</source>
+          <target state="translated">İstemci Tarafı Kitaplık Ekle</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Add Client-Side Library</note>
         </trans-unit>
         <trans-unit id="SelectLibraryToSelectFilesToInstall" translate="yes" xml:space="preserve">
-          <source><it id="1" pos="open">&lt;Choose a library to select files to install&gt;</it></source><target state="translated">&lt;Yüklenecek dosyaları belirlemek için bir kitaplık seçin&gt;</target>
+          <source><it id="1" pos="open">&lt;Choose a library to select files to install&gt;</it></source>
+          <target state="translated">&lt;Yüklenecek dosyaları belirlemek için bir kitaplık seçin&gt;</target>
         </trans-unit>
         <trans-unit id="DisableRestoreOnBuild" translate="yes" xml:space="preserve">
-          <source>Disable Restore on Build</source><target state="translated">Derleme Sırasında Geri Yüklemeyi Devre Dışı Bırak</target>
+          <source>Disabl&amp;e Client-Side Libraries on Build</source>
+          <target state="needs-review-translation">Derleme Sırasında Geri Yüklemeyi Devre Dışı Bırak</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="EnableRestoreOnBuild" translate="yes" xml:space="preserve">
-          <source>Enable Restore Client-Side Libraries on Build</source><target state="translated">İstemci Tarafı Kitaplıkların Derleme Sırasında Geri Yüklenmesini Etkinleştir</target>
+          <source>&amp;Enable Restore Client-Side Libraries on Build...</source>
+          <target state="needs-review-translation">İstemci Tarafı Kitaplıkların Derleme Sırasında Geri Yüklenmesini Etkinleştir</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="Nuget_InstallingPackage" translate="yes" xml:space="preserve">
-          <source>Installing NuGet package containing MSBuild target...</source><target state="translated">MSBuild hedefini içeren NuGet paketi yükleniyor...</target>
+          <source>Installing NuGet package containing MSBuild target...</source>
+          <target state="translated">MSBuild hedefini içeren NuGet paketi yükleniyor...</target>
         </trans-unit>
         <trans-unit id="Nuget_PackageFailedToInstall" translate="yes" xml:space="preserve">
-          <source>NuGet package failed to install</source><target state="translated">NuGet paketi yüklenemedi</target>
+          <source>NuGet package failed to install</source>
+          <target state="translated">NuGet paketi yüklenemedi</target>
         </trans-unit>
         <trans-unit id="Nuget_PackageFailedToUninstall" translate="yes" xml:space="preserve">
-          <source>NuGet package failed to uninstall</source><target state="translated">NuGet paketi kaldırılamadı</target>
+          <source>NuGet package failed to uninstall</source>
+          <target state="translated">NuGet paketi kaldırılamadı</target>
         </trans-unit>
         <trans-unit id="Nuget_PackageInstalled" translate="yes" xml:space="preserve">
-          <source>NuGet package installed</source><target state="translated">NuGet paketi yüklendi</target>
+          <source>NuGet package installed</source>
+          <target state="translated">NuGet paketi yüklendi</target>
         </trans-unit>
         <trans-unit id="Nuget_PackageUninstalled" translate="yes" xml:space="preserve">
-          <source>NuGet package uninstalled</source><target state="translated">NuGet paketi kaldırıldı</target>
+          <source>NuGet package uninstalled</source>
+          <target state="translated">NuGet paketi kaldırıldı</target>
         </trans-unit>
         <trans-unit id="Nuget_UninstallingPackage" translate="yes" xml:space="preserve">
-          <source>Uninstalling NuGet package...</source><target state="translated">NuGet paketi kaldırılıyor...</target>
+          <source>Uninstalling NuGet package...</source>
+          <target state="translated">NuGet paketi kaldırılıyor...</target>
         </trans-unit>
         <trans-unit id="FailToDeleteLibrariesFromProject" translate="yes" xml:space="preserve">
-          <source>Could not delete libraries from project</source><target state="translated">Kitaplıklar projeden silinemedi</target>
+          <source>Could not delete libraries from project</source>
+          <target state="translated">Kitaplıklar projeden silinemedi</target>
         </trans-unit>
         <trans-unit id="LibraryDeletedFromProject" translate="yes" xml:space="preserve">
-          <source>Library {0} was successfuly deleted from project</source><target state="translated">{0} kitaplığı başarıyla projeden silindi</target>
+          <source>Library {0} was successfuly deleted from project</source>
+          <target state="translated">{0} kitaplığı başarıyla projeden silindi</target>
         </trans-unit>
         <trans-unit id="FailToAddLibrariesToProject" translate="yes" xml:space="preserve">
-          <source>Could not add libraries to project</source><target state="translated">Kitaplıklar projeye eklenemedi</target>
+          <source>Could not add libraries to project</source>
+          <target state="translated">Kitaplıklar projeye eklenemedi</target>
         </trans-unit>
         <trans-unit id="LibraryAddedToProject" translate="yes" xml:space="preserve">
-          <source>Library {0} was successfuly added to project</source><target state="translated">{0} kitaplığı projeye başarıyla eklendi</target>
+          <source>Library {0} was successfuly added to project</source>
+          <target state="translated">{0} kitaplığı projeye başarıyla eklendi</target>
         </trans-unit>
         <trans-unit id="OutputWindowTitle" translate="yes" xml:space="preserve">
-          <source>Library Manager</source><target state="translated">Kütüphane Yöneticisi</target>
+          <source>Library Manager</source>
+          <target state="translated">Kütüphane Yöneticisi</target>
         </trans-unit>
         <trans-unit id="OperationInProgress" translate="yes" xml:space="preserve">
-          <source>Library Manager operation already in progress.</source><target state="translated">Kitaplık Yöneticisi işlemi zaten sürüyor.</target>
+          <source>Library Manager operation already in progress.</source>
+          <target state="translated">Kitaplık Yöneticisi işlemi zaten sürüyor.</target>
         </trans-unit>
         <trans-unit id="Files" translate="yes" xml:space="preserve">
-          <source>Files:</source><target state="translated">Dosyalar:</target>
+          <source>Files:</source>
+          <target state="translated">Dosyalar:</target>
         </trans-unit>
         <trans-unit id="Library" translate="yes" xml:space="preserve">
-          <source>Library:</source><target state="translated">Kitaplık:</target>
+          <source>Library:</source>
+          <target state="translated">Kitaplık:</target>
         </trans-unit>
         <trans-unit id="Provider" translate="yes" xml:space="preserve">
-          <source>Provider: </source><target state="translated">Sağlayıcı: </target>
+          <source>Provider: </source>
+          <target state="translated">Sağlayıcı: </target>
         </trans-unit>
         <trans-unit id="TargetLocation" translate="yes" xml:space="preserve">
-          <source>Target Location:</source><target state="translated">Hedef konumu:</target>
+          <source>Target Location:</source>
+          <target state="translated">Hedef konumu:</target>
         </trans-unit>
         <trans-unit id="ChooseSpecificFiles" translate="yes" xml:space="preserve">
-          <source>Choose specific files:</source><target state="translated">Belirli dosyaları seçin:</target>
+          <source>Choose specific files:</source>
+          <target state="translated">Belirli dosyaları seçin:</target>
         </trans-unit>
         <trans-unit id="IncludeAllLibraryFiles" translate="yes" xml:space="preserve">
-          <source>Include all library files</source><target state="translated">Tüm kütüphane dosyalarını ekle</target>
+          <source>Include all library files</source>
+          <target state="translated">Tüm kütüphane dosyalarını ekle</target>
         </trans-unit>
         <trans-unit id="NoFilesSelected" translate="yes" xml:space="preserve">
-          <source>No files have been selected</source><target state="translated">Dosya seçilmedi</target>
+          <source>No files have been selected</source>
+          <target state="translated">Dosya seçilmedi</target>
+        </trans-unit>
+        <trans-unit id="Cancel" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="new">Cancel</target>
+        </trans-unit>
+        <trans-unit id="Install" translate="yes" xml:space="preserve">
+          <source>Install</source>
+          <target state="new">Install</target>
         </trans-unit>
       </group>
     </body>
