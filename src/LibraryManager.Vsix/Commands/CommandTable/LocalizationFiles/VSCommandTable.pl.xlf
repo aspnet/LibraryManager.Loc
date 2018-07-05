@@ -5,27 +5,27 @@
       <group id="C:\Users\bhsubra\Desktop\LibraryManager\src\LibraryManager.Vsix\Commands\CommandTable\VSCommandTable.en.vsct">
         <trans-unit id="InstallPackage|ButtonText">
           <source xml:lang="en">Client-Side &amp;Library...</source>
-          <target xml:lang="pl" state="new">Client-Side &amp;Library...</target>
+          <target xml:lang="pl" state="translated">Bib&amp;lioteka po stronie klienta...</target>
         </trans-unit>
         <trans-unit id="Restore|ButtonText">
           <source xml:lang="en">Restore Client-Side &amp;Libraries</source>
-          <target xml:lang="pl" state="new">Restore Client-Side &amp;Libraries</target>
+          <target xml:lang="pl" state="translated">Przywróć bib&amp;lioteki po stronie klienta</target>
         </trans-unit>
         <trans-unit id="Clean|ButtonText">
           <source xml:lang="en">&amp;Clean Client-Side Libraries</source>
-          <target xml:lang="pl" state="new">&amp;Clean Client-Side Libraries</target>
+          <target xml:lang="pl" state="translated">Wy&amp;czyść biblioteki po stronie klienta</target>
         </trans-unit>
         <trans-unit id="RestoreOnBuild|ButtonText">
           <source xml:lang="en">Enable Restore Client-Side Libraries on Build...</source>
-          <target xml:lang="pl" state="new">Enable Restore Client-Side Libraries on Build...</target>
+          <target xml:lang="pl" state="translated">Włącz przywracanie bibliotek po stronie klienta przy kompilacji...</target>
         </trans-unit>
         <trans-unit id="ManageLibraries|ButtonText">
           <source xml:lang="en">&amp;Manage Client-Side Libraries...</source>
-          <target xml:lang="pl" state="new">&amp;Manage Client-Side Libraries...</target>
+          <target xml:lang="pl" state="translated">Zarządzaj biblioteka&amp;mi po stronie klienta...</target>
         </trans-unit>
         <trans-unit id="RestoreSolution|ButtonText">
           <source xml:lang="en">&amp;Restore Client-Side Libraries</source>
-          <target xml:lang="pl" state="new">&amp;Restore Client-Side Libraries</target>
+          <target xml:lang="pl" state="translated">P&amp;rzywróć biblioteki po stronie klienta</target>
         </trans-unit>
       </group>
     </body>
