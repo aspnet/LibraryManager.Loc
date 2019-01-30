@@ -132,36 +132,43 @@ Do you want to continue?</source>
           <target state="translated">ファイル:</target>
         </trans-unit>
         <trans-unit id="Library" translate="yes" xml:space="preserve">
-          <source>Library:</source>
-          <target state="translated">ライブラリ:</target>
+          <source>_Library:</source>
+          <target state="needs-review-translation">ライブラリ:</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="Provider" translate="yes" xml:space="preserve">
-          <source>Provider: </source>
-          <target state="translated">プロバイダー:</target>
+          <source>_Provider: </source>
+          <target state="needs-review-translation">プロバイダー:</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="TargetLocation" translate="yes" xml:space="preserve">
-          <source>Target Location:</source>
-          <target state="translated">ターゲットの場所:</target>
+          <source>_Target Location:</source>
+          <target state="needs-review-translation">ターゲットの場所:</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="ChooseSpecificFiles" translate="yes" xml:space="preserve">
-          <source>Choose specific files:</source>
-          <target state="translated">特定のファイルを選択します。</target>
+          <source>Choose _specific files:</source>
+          <target state="needs-review-translation">特定のファイルを選択します。</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="IncludeAllLibraryFiles" translate="yes" xml:space="preserve">
-          <source>Include all library files</source>
-          <target state="translated">ライブラリのすべてのファイルを含める</target>
+          <source>Include _all library files</source>
+          <target state="needs-review-translation">ライブラリのすべてのファイルを含める</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="NoFilesSelected" translate="yes" xml:space="preserve">
           <source>No files have been selected</source>
           <target state="translated">ファイルが選択されていません</target>
         </trans-unit>
         <trans-unit id="Cancel" translate="yes" xml:space="preserve">
-          <source>Cancel</source>
-          <target state="translated">キャンセル</target>
+          <source>_Cancel</source>
+          <target state="needs-review-translation">キャンセル</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="Install" translate="yes" xml:space="preserve">
-          <source>Install</source>
-          <target state="translated">インストール</target>
+          <source>_Install</source>
+          <target state="needs-review-translation">インストール</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
       </group>
     </body>

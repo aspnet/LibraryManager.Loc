@@ -132,36 +132,43 @@ Do you want to continue?</source>
           <target state="translated">檔案:</target>
         </trans-unit>
         <trans-unit id="Library" translate="yes" xml:space="preserve">
-          <source>Library:</source>
-          <target state="translated">程式庫:</target>
+          <source>_Library:</source>
+          <target state="needs-review-translation">程式庫:</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="Provider" translate="yes" xml:space="preserve">
-          <source>Provider: </source>
-          <target state="translated">提供者:</target>
+          <source>_Provider: </source>
+          <target state="needs-review-translation">提供者:</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="TargetLocation" translate="yes" xml:space="preserve">
-          <source>Target Location:</source>
-          <target state="translated">目標位置:</target>
+          <source>_Target Location:</source>
+          <target state="needs-review-translation">目標位置:</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="ChooseSpecificFiles" translate="yes" xml:space="preserve">
-          <source>Choose specific files:</source>
-          <target state="translated">選擇特定檔案:</target>
+          <source>Choose _specific files:</source>
+          <target state="needs-review-translation">選擇特定檔案:</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="IncludeAllLibraryFiles" translate="yes" xml:space="preserve">
-          <source>Include all library files</source>
-          <target state="translated">包含所有程式庫檔案</target>
+          <source>Include _all library files</source>
+          <target state="needs-review-translation">包含所有程式庫檔案</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="NoFilesSelected" translate="yes" xml:space="preserve">
           <source>No files have been selected</source>
           <target state="translated">未選取任何檔案</target>
         </trans-unit>
         <trans-unit id="Cancel" translate="yes" xml:space="preserve">
-          <source>Cancel</source>
-          <target state="translated">取消</target>
+          <source>_Cancel</source>
+          <target state="needs-review-translation">取消</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="Install" translate="yes" xml:space="preserve">
-          <source>Install</source>
-          <target state="translated">安裝</target>
+          <source>_Install</source>
+          <target state="needs-review-translation">安裝</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
       </group>
     </body>
