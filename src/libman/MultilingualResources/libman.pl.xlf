@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" source-language="en" target-language="pl" original="LIBMAN/RESOURCES/TEXT.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
     <header>
@@ -43,16 +43,17 @@
           <target state="translated">Utwórz nowy plik libman.json</target>
         </trans-unit>
         <trans-unit id="InstallCommandDesc" translate="yes" xml:space="preserve">
-          <source>Add a library definition to the LibMan.json file, and download the library to the specified location</source>
+          <source>Add a library definition to the libman.json file, and download the library to the specified location</source>
           <target state="translated">Dodaj definicję biblioteki do pliku LibMan.json i pobierz bibliotekę do określonej lokalizacji</target>
         </trans-unit>
         <trans-unit id="InstallCommandExamples" translate="yes" xml:space="preserve">
-          <source>    libman install jquery@3.2.1 
-    libman install jquery --provider cdnjs --destination wwwroot\scripts\jquery --files jquery.min.js 
+          <source>    libman install jquery@3.2.1
+    libman install jquery --provider cdnjs --destination wwwroot\scripts\jquery --files jquery.min.js
     libman install myCalendar --provider filesystem --files calendar.js --files calendar.css</source>
-          <target state="translated">libman install jquery@3.2.1 
+          <target state="needs-review-translation">libman install jquery@3.2.1 
     libman install jquery --provider cdnjs --destination wwwroot\scripts\jquery --files jquery.min.js 
     libman install myCalendar --provider filesystem --files calendar.js --files calendar.css</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="InstallCommandLibraryIdArgumentDesc" translate="yes" xml:space="preserve">
           <source>Library to install</source>
@@ -107,7 +108,7 @@
     Jeśli biblioteka określa lokalizację docelową, przesłoni ona domyślną lokalizację docelową</target>
         </trans-unit>
         <trans-unit id="UnInstallCommandDesc" translate="yes" xml:space="preserve">
-          <source>Deletes all files for the specified library from their specified destination, then removess the specified library definition from libman.json</source>
+          <source>Deletes all files for the specified library from their specified destination, then removes the specified library definition from libman.json</source>
           <target state="translated">Usuwa wszystkie pliki dla określonej biblioteki z jej wskazanej lokalizacji docelowej, a następnie usuwa definicję określonej biblioteki z pliku libman.json</target>
         </trans-unit>
         <trans-unit id="UnInstallCommandExamples" translate="yes" xml:space="preserve">
@@ -227,13 +228,14 @@
           <target state="translated">Aktualizuje określoną bibliotekę</target>
         </trans-unit>
         <trans-unit id="UpdateCommandExamples" translate="yes" xml:space="preserve">
-          <source>    libman update jquery 
+          <source>    libman update jquery
     libman update jquery --to 3.3.1
-    libman update jquery -pre 
+    libman update jquery -pre
 </source>
-          <target state="translated">libman update jquery 
+          <target state="needs-review-translation">libman update jquery 
     libman update jquery --to 3.3.1
     libman update jquery -pre</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
         </trans-unit>
         <trans-unit id="UpdateCommandRemarks" translate="yes" xml:space="preserve">
           <source>    Error if no libman.json in current folder
@@ -378,6 +380,18 @@ Określ inną lokalizację docelową.</target>
         <trans-unit id="InitFailedUnknownProvider" translate="yes" xml:space="preserve">
           <source>Failed to initialize libman.json. [{0}]: {1}</source>
           <target state="translated">Nie można zainicjować pliku libman.json. [{0}]: {1}</target>
+        </trans-unit>
+        <trans-unit id="NonInteractiveConsoleMessage" translate="yes" xml:space="preserve">
+          <source>Cannot prompt for user input in this console.</source>
+          <target state="new">Cannot prompt for user input in this console.</target>
+        </trans-unit>
+        <trans-unit id="SpecifyDisabmiguatedLibrary" translate="yes" xml:space="preserve">
+          <source>Please specify the complete library id and the also the provider using '--provider' option.</source>
+          <target state="new">Please specify the complete library id and the also the provider using '--provider' option.</target>
+        </trans-unit>
+        <trans-unit id="SpecifyFieldUsingOption" translate="yes" xml:space="preserve">
+          <source>Please specify '{0}' using the '--{1}' option.</source>
+          <target state="new">Please specify '{0}' using the '--{1}' option.</target>
         </trans-unit>
       </group>
     </body>
