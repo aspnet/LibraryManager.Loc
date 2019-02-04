@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" source-language="en" target-language="zh-Hant" original="LIBMAN/RESOURCES/TEXT.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
     <header>
@@ -50,10 +50,9 @@
           <source>    libman install jquery@3.2.1
     libman install jquery --provider cdnjs --destination wwwroot\scripts\jquery --files jquery.min.js
     libman install myCalendar --provider filesystem --files calendar.js --files calendar.css</source>
-          <target state="needs-review-translation">libman install jquery@3.2.1 
-libman install jquery --provider cdnjs --destination wwwroot\scripts\jquery --files jquery.min.js 
-libman install myCalendar --provider filesystem --files calendar.js --files calendar.css</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">libman install jquery@3.2.1
+    libman install jquery --provider cdnjs --destination wwwroot\scripts\jquery --files jquery.min.js
+    libman install myCalendar --provider filesystem --files calendar.js --files calendar.css</target>
         </trans-unit>
         <trans-unit id="InstallCommandLibraryIdArgumentDesc" translate="yes" xml:space="preserve">
           <source>Library to install</source>
@@ -62,7 +61,7 @@ libman install myCalendar --provider filesystem --files calendar.js --files cale
         <trans-unit id="InstallCommandProviderSpecificLogic" translate="yes" xml:space="preserve">
           <source>    CDNJS libraries have a library ID format of “<it id="1" pos="open">&lt;libraryName&gt;</it>@<it id="2" pos="open">&lt;libraryVersion&gt;</it>”
     For CDNJS libraries, if no version is specified in the library ID, the highest version available is used.</source>
-          <target state="translated">CDNJS 程式庫的程式庫識別碼格式為 “&lt;libraryName&gt;@&lt;libraryVersion&gt;”
+          <target state="translated">CDNJS 程式庫的程式庫識別碼格式為 “<it id="1" pos="open">&lt;libraryName&gt;</it>@<it id="2" pos="open">&lt;libraryVersion&gt;</it>”
 對於 CDNJS 程式庫，若未在程式庫識別碼中指定任何版本，就會使用可用的最高版本。</target>
         </trans-unit>
         <trans-unit id="InstallCommandRemarks" translate="yes" xml:space="preserve">
@@ -127,7 +126,7 @@ libman install myCalendar --provider filesystem --files calendar.js --files cale
         <trans-unit id="UnInstallCommandProviderSpecificLogic" translate="yes" xml:space="preserve">
           <source>    CDNJS libraries have a library ID format of “<it id="1" pos="open">&lt;libraryName&gt;</it>@<it id="2" pos="open">&lt;libraryVersion&gt;</it>”
     If no version is specified in the library ID, this command will act on any library with libraryName matching the given libraryId</source>
-          <target state="translated">CDNJS 程式庫的程式庫識別碼格式為 “&lt;libraryName&gt;@&lt;libraryVersion&gt;”
+          <target state="translated">CDNJS 程式庫的程式庫識別碼格式為 “<it id="1" pos="open">&lt;libraryName&gt;</it>@<it id="2" pos="open">&lt;libraryVersion&gt;</it>”
 若未在程式庫識別碼中指定任何版本，就會對 libraryName 符合指定 libraryId 的任何程式庫執行這項命令</target>
         </trans-unit>
         <trans-unit id="UnInstallCommandRemarks" translate="yes" xml:space="preserve">
@@ -231,8 +230,9 @@ libman install myCalendar --provider filesystem --files calendar.js --files cale
     libman update jquery --to 3.3.1
     libman update jquery -pre
 </source>
-          <target state="needs-review-translation">libman update jquery libman update jquery --to 3.3.1 libman update jquery -pre</target>
-          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          <target state="translated">libman update jquery
+    libman update jquery --to 3.3.1
+    libman update jquery -pre</target>
         </trans-unit>
         <trans-unit id="UpdateCommandRemarks" translate="yes" xml:space="preserve">
           <source>    Error if no libman.json in current folder
@@ -380,15 +380,15 @@ Please specify a different destination.</source>
         </trans-unit>
         <trans-unit id="NonInteractiveConsoleMessage" translate="yes" xml:space="preserve">
           <source>Cannot prompt for user input in this console.</source>
-          <target state="new">Cannot prompt for user input in this console.</target>
+          <target state="translated">無法在此主控台提示使用者輸入。</target>
         </trans-unit>
         <trans-unit id="SpecifyDisabmiguatedLibrary" translate="yes" xml:space="preserve">
           <source>Please specify the complete library id and the also the provider using '--provider' option.</source>
-          <target state="new">Please specify the complete library id and the also the provider using '--provider' option.</target>
+          <target state="translated">請使用 '--provider' 選項指定完整的程式庫識別碼及提供者。</target>
         </trans-unit>
         <trans-unit id="SpecifyFieldUsingOption" translate="yes" xml:space="preserve">
           <source>Please specify '{0}' using the '--{1}' option.</source>
-          <target state="new">Please specify '{0}' using the '--{1}' option.</target>
+          <target state="translated">請使用 '--{1}' 選項指定 '{0}'。</target>
         </trans-unit>
       </group>
     </body>
