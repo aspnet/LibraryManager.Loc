@@ -47,9 +47,9 @@
 This may require an internet connection.
 
 Do you want to continue?</source>
-          <target state="translated">Un package NuGet est installé pour augmenter le processus MSBuild, mais aucun fichier n'est ajouté au projet.
+          <target state="translated">Un package NuGet sera installé pour augmenter le processus MSBuild, mais aucun fichier ne sera ajouté au projet.
 
-Une connexion Internet peut être nécessaire.
+Cette opération risque de nécessiter une connexion Internet.
 
 Voulez-vous continuer ?</target>
         </trans-unit>
@@ -160,28 +160,28 @@ Voulez-vous continuer ?</target>
         </trans-unit>
         <trans-unit id="SuggestedAction_Update_NoUpdatesFound" translate="yes" xml:space="preserve">
           <source>No updates found at this time</source>
-          <target state="new">No updates found at this time</target>
+          <target state="translated">Aucune mise à jour trouvée pour l'instant</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Used in message box when light bulb found no updates</note>
         </trans-unit>
         <trans-unit id="Checked" translate="yes" xml:space="preserve">
           <source>Checked {0}</source>
-          <target state="new">Checked {0}</target>
+          <target state="translated">Archivé {0}</target>
         </trans-unit>
         <trans-unit id="UnChecked" translate="yes" xml:space="preserve">
           <source>UnChecked {0}</source>
-          <target state="new">UnChecked {0}</target>
+          <target state="translated">Non archivé {0}</target>
         </trans-unit>
         <trans-unit id="SuggestedAction_Update_Prerelease" translate="yes" xml:space="preserve">
           <source>Pre-release: {0}</source>
-          <target state="new">Pre-release: {0}</target>
+          <target state="translated">Préversion : {0}</target>
         </trans-unit>
         <trans-unit id="SuggestedAction_Update_Stable" translate="yes" xml:space="preserve">
           <source>Stable: {0}</source>
-          <target state="new">Stable: {0}</target>
+          <target state="translated">Stable : {0}</target>
         </trans-unit>
         <trans-unit id="SuggestedAction_Update_Title" translate="yes" xml:space="preserve">
           <source>Update Library</source>
-          <target state="new">Update Library</target>
+          <target state="translated">Mettre à jour la bibliothèque</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Title for SuggestedAction set</note>
         </trans-unit>
       </group>

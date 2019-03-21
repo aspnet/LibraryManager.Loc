@@ -5,7 +5,7 @@
       <group id="C:\Users\bhsubra\Desktop\LibraryManager\src\LibraryManager.Vsix\Commands\CommandTable\VSCommandTable.en.vsct">
         <trans-unit id="InstallPackage|ButtonText">
           <source xml:lang="en">Client-Side &amp;Library...</source>
-          <target state="translated">&amp;Bibliothèque côté client...</target>
+          <target state="translated">Bib&amp;liothèque côté client...</target>
         </trans-unit>
         <trans-unit id="Restore|ButtonText">
           <source xml:lang="en">Restore Client-Side &amp;Libraries</source>
@@ -17,7 +17,7 @@
         </trans-unit>
         <trans-unit id="RestoreOnBuild|ButtonText">
           <source xml:lang="en">Enable Restore Client-Side Libraries on Build...</source>
-          <target state="translated">Activer la restauration des bibliothèques côté client sur la build...</target>
+          <target state="translated">Activer les bibliothèques côté client de restauration lors de la build...</target>
         </trans-unit>
         <trans-unit id="ManageLibraries|ButtonText">
           <source xml:lang="en">&amp;Manage Client-Side Libraries...</source>

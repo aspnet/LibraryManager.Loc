@@ -5,7 +5,7 @@
       <group id="C:\Users\bhsubra\Desktop\LibraryManager\src\LibraryManager.Vsix\Commands\CommandTable\VSCommandTable.en.vsct">
         <trans-unit id="InstallPackage|ButtonText">
           <source xml:lang="en">Client-Side &amp;Library...</source>
-          <target state="translated">İstemci Tarafı &amp;Kitaplık...</target>
+          <target state="translated">İstemci Tarafı &amp;Kitaplığı...</target>
         </trans-unit>
         <trans-unit id="Restore|ButtonText">
           <source xml:lang="en">Restore Client-Side &amp;Libraries</source>
@@ -17,7 +17,7 @@
         </trans-unit>
         <trans-unit id="RestoreOnBuild|ButtonText">
           <source xml:lang="en">Enable Restore Client-Side Libraries on Build...</source>
-          <target state="translated">Derleme Sırasında İstemci Tarafı Kitaplıkların Geri Yüklenmesini Etkinleştir...</target>
+          <target state="translated">Derleme Sırasında İstemci Tarafı Kitaplıkları Geri Yüklemeyi Etkinleştir...</target>
         </trans-unit>
         <trans-unit id="ManageLibraries|ButtonText">
           <source xml:lang="en">&amp;Manage Client-Side Libraries...</source>

@@ -5,11 +5,11 @@
       <group id="C:\Users\bhsubra\Desktop\LibraryManager\src\LibraryManager.Vsix\Commands\CommandTable\VSCommandTable.en.vsct">
         <trans-unit id="InstallPackage|ButtonText">
           <source xml:lang="en">Client-Side &amp;Library...</source>
-          <target state="translated">Клиентская &amp;библиотека...</target>
+          <target state="translated">Клиентская &amp;библиотека…</target>
         </trans-unit>
         <trans-unit id="Restore|ButtonText">
           <source xml:lang="en">Restore Client-Side &amp;Libraries</source>
-          <target state="translated">Восстановить клиент&amp;ские библиотеки</target>
+          <target state="translated">Восстановить клиентские &amp;библиотеки</target>
         </trans-unit>
         <trans-unit id="Clean|ButtonText">
           <source xml:lang="en">&amp;Clean Client-Side Libraries</source>
@@ -17,11 +17,11 @@
         </trans-unit>
         <trans-unit id="RestoreOnBuild|ButtonText">
           <source xml:lang="en">Enable Restore Client-Side Libraries on Build...</source>
-          <target state="translated">Включить восстановление клиентских библиотек при сборке...</target>
+          <target state="translated">Включить восстановление клиентских библиотек при сборке…</target>
         </trans-unit>
         <trans-unit id="ManageLibraries|ButtonText">
           <source xml:lang="en">&amp;Manage Client-Side Libraries...</source>
-          <target state="translated">&amp;Управление клиентскими библиотеками...</target>
+          <target state="translated">&amp;Управлять клиентскими библиотеками…</target>
         </trans-unit>
         <trans-unit id="RestoreSolution|ButtonText">
           <source xml:lang="en">&amp;Restore Client-Side Libraries</source>

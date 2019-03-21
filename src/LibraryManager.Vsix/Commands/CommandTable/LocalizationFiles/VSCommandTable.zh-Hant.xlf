@@ -17,7 +17,7 @@
         </trans-unit>
         <trans-unit id="RestoreOnBuild|ButtonText">
           <source xml:lang="en">Enable Restore Client-Side Libraries on Build...</source>
-          <target state="translated">在建置時啟用還原用戶端程式庫...</target>
+          <target state="translated">允許在建置時還原用戶端程式庫...</target>
         </trans-unit>
         <trans-unit id="ManageLibraries|ButtonText">
           <source xml:lang="en">&amp;Manage Client-Side Libraries...</source>

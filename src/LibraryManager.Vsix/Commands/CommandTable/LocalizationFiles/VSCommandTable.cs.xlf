@@ -9,15 +9,15 @@
         </trans-unit>
         <trans-unit id="Restore|ButtonText">
           <source xml:lang="en">Restore Client-Side &amp;Libraries</source>
-          <target state="translated">O&amp;bnovit knihovny na straně klienta</target>
+          <target state="translated">Obnovit kni&amp;hovny na straně klienta</target>
         </trans-unit>
         <trans-unit id="Clean|ButtonText">
           <source xml:lang="en">&amp;Clean Client-Side Libraries</source>
-          <target state="translated">Vyč&amp;istit knihovny na straně klienta</target>
+          <target state="translated">&amp;Vyčistit knihovny na straně klienta</target>
         </trans-unit>
         <trans-unit id="RestoreOnBuild|ButtonText">
           <source xml:lang="en">Enable Restore Client-Side Libraries on Build...</source>
-          <target state="translated">Povolit obnovení knihoven na straně klienta při sestavení...</target>
+          <target state="translated">Při sestavování povolit obnovení knihoven na straně klienta...</target>
         </trans-unit>
         <trans-unit id="ManageLibraries|ButtonText">
           <source xml:lang="en">&amp;Manage Client-Side Libraries...</source>
