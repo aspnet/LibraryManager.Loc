@@ -17,7 +17,7 @@
         </trans-unit>
         <trans-unit id="RestoreOnBuild|ButtonText">
           <source xml:lang="en">Enable Restore Client-Side Libraries on Build...</source>
-          <target state="translated">Włącz przywracanie bibliotek po stronie klienta przy kompilacji...</target>
+          <target state="translated">Włącz przywracanie bibliotek po stronie klienta podczas kompilacji...</target>
         </trans-unit>
         <trans-unit id="ManageLibraries|ButtonText">
           <source xml:lang="en">&amp;Manage Client-Side Libraries...</source>

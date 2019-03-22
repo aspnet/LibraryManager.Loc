@@ -47,11 +47,11 @@
 This may require an internet connection.
 
 Do you want to continue?</source>
-          <target state="translated">Ein NuGet-Paket wird installiert, um den MSBuild-Prozess zu verbessern, dem Projekt werden jedoch keine Dateien hinzugefügt.
+          <target state="translated">Zur Verbesserung des MSBuild-Prozesses wird ein NuGet-Paket installiert, aber dem Projekt werden keine Dateien hinzugefügt.
 
-Möglicherweise ist hierzu eine Internetverbindung erforderlich.
+Dazu ist möglicherweise eine Internetverbindung erforderlich.
 
-Möchten Sie fortfahren?</target>
+Möchten Sie den Vorgang fortsetzen?</target>
         </trans-unit>
         <trans-unit id="TypeToSearch" translate="yes" xml:space="preserve">
           <source><it id="1" pos="open">&lt;Type to search&gt;</it></source>
@@ -160,28 +160,28 @@ Möchten Sie fortfahren?</target>
         </trans-unit>
         <trans-unit id="SuggestedAction_Update_NoUpdatesFound" translate="yes" xml:space="preserve">
           <source>No updates found at this time</source>
-          <target state="new">No updates found at this time</target>
+          <target state="translated">Gegenwärtig liegen keine Updates vor.</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Used in message box when light bulb found no updates</note>
         </trans-unit>
         <trans-unit id="Checked" translate="yes" xml:space="preserve">
           <source>Checked {0}</source>
-          <target state="new">Checked {0}</target>
+          <target state="translated">"{0}" aktiviert</target>
         </trans-unit>
         <trans-unit id="UnChecked" translate="yes" xml:space="preserve">
           <source>UnChecked {0}</source>
-          <target state="new">UnChecked {0}</target>
+          <target state="translated">"{0}" deaktiviert</target>
         </trans-unit>
         <trans-unit id="SuggestedAction_Update_Prerelease" translate="yes" xml:space="preserve">
           <source>Pre-release: {0}</source>
-          <target state="new">Pre-release: {0}</target>
+          <target state="translated">Vorabversion: {0}</target>
         </trans-unit>
         <trans-unit id="SuggestedAction_Update_Stable" translate="yes" xml:space="preserve">
           <source>Stable: {0}</source>
-          <target state="new">Stable: {0}</target>
+          <target state="translated">Stabil: {0}</target>
         </trans-unit>
         <trans-unit id="SuggestedAction_Update_Title" translate="yes" xml:space="preserve">
           <source>Update Library</source>
-          <target state="new">Update Library</target>
+          <target state="translated">Bibliothek aktualisieren</target>
           <note from="MultilingualBuild" annotates="source" priority="2">Title for SuggestedAction set</note>
         </trans-unit>
       </group>
