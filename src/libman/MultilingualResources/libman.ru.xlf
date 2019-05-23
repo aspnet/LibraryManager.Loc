@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" source-language="en" target-language="ru" original="LIBMAN/RESOURCES/TEXT.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
     <header>
@@ -61,15 +61,15 @@
         <trans-unit id="InstallCommandProviderSpecificLogic" translate="yes" xml:space="preserve">
           <source>    CDNJS libraries have a library ID format of “<it id="1" pos="open">&lt;libraryName&gt;</it>@<it id="2" pos="open">&lt;libraryVersion&gt;</it>”
     For CDNJS libraries, if no version is specified in the library ID, the highest version available is used.</source>
-          <target state="translated">Для библиотек CDNJS используется следующий формат идентификатора библиотеки: "<it id="1" pos="open">&lt;имя библиотеки&gt;</it>@<it id="2" pos="open">&lt;версия библиотеки&gt;</it>"
-    Если в идентификаторе библиотеки CDNJS не указана версия, используется максимальная доступная версия.</target>
+          <target state="translated">    Библиотеки CDNJS имеют формат идентификатора библиотеки "&lt;имя_библиотеки&gt;@&lt;версия_библиотеки&gt;"
+    Если в идентификаторе библиотеки CDNJS не указана версия, используется самая новая из доступных версий.</target>
         </trans-unit>
         <trans-unit id="InstallCommandRemarks" translate="yes" xml:space="preserve">
           <source>    Initializes a libman.json if one does not exist
     If no default provider exists, --provider option is required
     If no default destination exists, --destination option is required
     If no files are specified, the entire library is included</source>
-          <target state="translated">Инициализирует файл libman.json, если его не существует
+          <target state="translated">    Инициализирует файл libman.json, если его не существует
     Если поставщик по умолчанию не задан, параметр --provider является обязательным
     Если место назначения по умолчанию не задано, параметр --destination является обязательным
     Если файлы не указаны, будет включена вся библиотека</target>
@@ -113,7 +113,7 @@
         <trans-unit id="UnInstallCommandExamples" translate="yes" xml:space="preserve">
           <source>    libman uninstall jquery
     libman uninstall jquery@3.3.1</source>
-          <target state="translated">libman uninstall jquery
+          <target state="translated">    libman uninstall jquery
     libman uninstall jquery@3.3.1</target>
         </trans-unit>
         <trans-unit id="UninstallCommandLibraryIdArgumentDesc" translate="yes" xml:space="preserve">
@@ -127,8 +127,8 @@
         <trans-unit id="UnInstallCommandProviderSpecificLogic" translate="yes" xml:space="preserve">
           <source>    CDNJS libraries have a library ID format of “<it id="1" pos="open">&lt;libraryName&gt;</it>@<it id="2" pos="open">&lt;libraryVersion&gt;</it>”
     If no version is specified in the library ID, this command will act on any library with libraryName matching the given libraryId</source>
-          <target state="translated">Для библиотек CDNJS используется следующий формат идентификатора библиотеки: "<it id="1" pos="open">&lt;имя библиотеки&gt;</it>@<it id="2" pos="open">&lt;версия библиотеки&gt;</it>"
-    Если в идентификаторе библиотеки не указана версия, эта команда будет применена ко всем библиотекам, название которых соответствует указанному идентификатору библиотеки</target>
+          <target state="translated">    Библиотеки CDNJS имеют формат идентификатора библиотеки "&lt;имя_библиотеки&gt;@&lt;версия_библиотеки&gt;"
+    Если в идентификаторе библиотеки не указана версия, эта команда применяется к любой библиотеке, у которой имя_библиотеки совпадает с заданным идентификатором библиотеки libraryId</target>
         </trans-unit>
         <trans-unit id="UnInstallCommandRemarks" translate="yes" xml:space="preserve">
           <source>    Error if no libman.json in current folder
@@ -231,9 +231,10 @@
     libman update jquery --to 3.3.1
     libman update jquery -pre
 </source>
-          <target state="translated">libman update jquery
+          <target state="translated">    libman update jquery
     libman update jquery --to 3.3.1
-    libman update jquery -pre</target>
+    libman update jquery -pre
+</target>
         </trans-unit>
         <trans-unit id="UpdateCommandRemarks" translate="yes" xml:space="preserve">
           <source>    Error if no libman.json in current folder

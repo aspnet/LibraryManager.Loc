@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" source-language="en" target-language="de" original="MICROSOFT.WEB.LIBRARYMANAGER.VSIX/RESOURCES/TEXT.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
     <header>
@@ -49,13 +49,13 @@ This may require an internet connection.
 Do you want to continue?</source>
           <target state="translated">Zur Verbesserung des MSBuild-Prozesses wird ein NuGet-Paket installiert, aber dem Projekt werden keine Dateien hinzugefügt.
 
-Dazu ist möglicherweise eine Internetverbindung erforderlich.
+Möglicherweise ist eine Internetverbindung erforderlich.
 
 Möchten Sie den Vorgang fortsetzen?</target>
         </trans-unit>
         <trans-unit id="TypeToSearch" translate="yes" xml:space="preserve">
           <source><it id="1" pos="open">&lt;Type to search&gt;</it></source>
-          <target state="translated"><it id="1" pos="open">&lt;Suchtext eingeben&gt;</it></target>
+          <target state="translated">&lt;Suchtext eingeben&gt;</target>
         </trans-unit>
         <trans-unit id="AddClientSideLibrary" translate="yes" xml:space="preserve">
           <source>Add Client-Side Library</source>
@@ -64,15 +64,15 @@ Möchten Sie den Vorgang fortsetzen?</target>
         </trans-unit>
         <trans-unit id="SelectLibraryToSelectFilesToInstall" translate="yes" xml:space="preserve">
           <source><it id="1" pos="open">&lt;Choose a library to select files to install&gt;</it></source>
-          <target state="translated"><it id="1" pos="open">&lt;Wählen Sie eine Bibliothek, um Dateien auszuwählen, die installiert werden sollen&gt;</it></target>
+          <target state="translated">&lt;Zur Auswahl der zu installierenden Dateien Bibliothek auswählen&gt;</target>
         </trans-unit>
         <trans-unit id="DisableRestoreOnBuild" translate="yes" xml:space="preserve">
           <source>Disabl&amp;e Client-Side Libraries on Build</source>
-          <target state="translated">Clienseitige Bibliotheken im Build deaktiviere&amp;n</target>
+          <target state="translated">Cli&amp;entseitige Bibliotheken bei Builderstellung deaktivieren</target>
         </trans-unit>
         <trans-unit id="EnableRestoreOnBuild" translate="yes" xml:space="preserve">
           <source>&amp;Enable Restore Client-Side Libraries on Build...</source>
-          <target state="translated">&amp;Wiederherstellen von clienseitigen Bibliotheken im Build aktivieren...</target>
+          <target state="translated">Wi&amp;ederherstellung clientseitiger Bibliotheken bei Builderstellung aktivieren...</target>
         </trans-unit>
         <trans-unit id="Nuget_InstallingPackage" translate="yes" xml:space="preserve">
           <source>Installing NuGet package containing MSBuild target...</source>

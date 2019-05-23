@@ -61,7 +61,7 @@
         <trans-unit id="InstallCommandProviderSpecificLogic" translate="yes" xml:space="preserve">
           <source>    CDNJS libraries have a library ID format of “<it id="1" pos="open">&lt;libraryName&gt;</it>@<it id="2" pos="open">&lt;libraryVersion&gt;</it>”
     For CDNJS libraries, if no version is specified in the library ID, the highest version available is used.</source>
-          <target state="translated">Il formato dell'ID libreria delle librerie CDNJS è “<it id="1" pos="open">&lt;nomeLibreria&gt;</it>@<it id="2" pos="open">&lt;versioneLibreria&gt;</it>”
+          <target state="translated">    Il formato dell'ID libreria delle librerie CDNJS è “&lt;nomeLibreria&gt;@&lt;versioneLibreria&gt;”
     Per le librerie CDNJS viene usata la versione massima disponibile se non viene specificata alcuna versione nell'ID libreria.</target>
         </trans-unit>
         <trans-unit id="InstallCommandRemarks" translate="yes" xml:space="preserve">
@@ -69,7 +69,7 @@
     If no default provider exists, --provider option is required
     If no default destination exists, --destination option is required
     If no files are specified, the entire library is included</source>
-          <target state="translated">Inizializza un file libman.json se non ne esiste uno
+          <target state="translated">    Inizializza un file libman.json se non ne esiste uno
     Se non esiste alcun provider predefinito, è richiesta l'opzione --provider
     Se non esiste alcuna destinazione predefinita, è richiesta l'opzione --destination
     Se non si specifica alcun file, viene inclusa l'intera libreria</target>
@@ -113,7 +113,7 @@
         <trans-unit id="UnInstallCommandExamples" translate="yes" xml:space="preserve">
           <source>    libman uninstall jquery
     libman uninstall jquery@3.3.1</source>
-          <target state="translated">libman uninstall jquery
+          <target state="translated">    libman uninstall jquery
     libman uninstall jquery@3.3.1</target>
         </trans-unit>
         <trans-unit id="UninstallCommandLibraryIdArgumentDesc" translate="yes" xml:space="preserve">
@@ -127,7 +127,7 @@
         <trans-unit id="UnInstallCommandProviderSpecificLogic" translate="yes" xml:space="preserve">
           <source>    CDNJS libraries have a library ID format of “<it id="1" pos="open">&lt;libraryName&gt;</it>@<it id="2" pos="open">&lt;libraryVersion&gt;</it>”
     If no version is specified in the library ID, this command will act on any library with libraryName matching the given libraryId</source>
-          <target state="translated">Il formato dell'ID libreria delle librerie CDNJS è “<it id="1" pos="open">&lt;nomeLibreria&gt;</it>@<it id="2" pos="open">&lt;versioneLibreria&gt;</it>”
+          <target state="translated">    Il formato dell'ID libreria delle librerie CDNJS è “&lt;nomeLibreria&gt;@&lt;versioneLibreria&gt;”
     Se non viene specificata alcuna versione nell'ID libreria, questo comando avrà effetto su qualsiasi libreria il cui nome libreria corrisponde all'ID libreria specificato</target>
         </trans-unit>
         <trans-unit id="UnInstallCommandRemarks" translate="yes" xml:space="preserve">
@@ -231,9 +231,10 @@
     libman update jquery --to 3.3.1
     libman update jquery -pre
 </source>
-          <target state="translated">libman update jquery
+          <target state="translated">    libman update jquery
     libman update jquery --to 3.3.1
-    libman update jquery -pre</target>
+    libman update jquery -pre
+</target>
         </trans-unit>
         <trans-unit id="UpdateCommandRemarks" translate="yes" xml:space="preserve">
           <source>    Error if no libman.json in current folder

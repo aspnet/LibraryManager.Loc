@@ -13,7 +13,7 @@
         </trans-unit>
         <trans-unit id="Clean|ButtonText">
           <source xml:lang="en">&amp;Clean Client-Side Libraries</source>
-          <target state="translated">İstemci Tarafı Kitaplıkları &amp;Temizle</target>
+          <target state="translated">&amp;İstemci Tarafı Kitaplıkları Temizle</target>
         </trans-unit>
         <trans-unit id="RestoreOnBuild|ButtonText">
           <source xml:lang="en">Enable Restore Client-Side Libraries on Build...</source>
@@ -21,11 +21,11 @@
         </trans-unit>
         <trans-unit id="ManageLibraries|ButtonText">
           <source xml:lang="en">&amp;Manage Client-Side Libraries...</source>
-          <target state="translated">İstemci Tarafı Kitaplıkları &amp;Yönet...</target>
+          <target state="translated">&amp;İstemci Tarafı Kitaplıkları Yönet...</target>
         </trans-unit>
         <trans-unit id="RestoreSolution|ButtonText">
           <source xml:lang="en">&amp;Restore Client-Side Libraries</source>
-          <target state="translated">İstemci Tarafı Kitaplıkları &amp;Geri Yükle</target>
+          <target state="translated">&amp;İstemci Tarafı Kitaplıkları Geri Yükle</target>
         </trans-unit>
       </group>
     </body>

@@ -13,7 +13,7 @@
         </trans-unit>
         <trans-unit id="Clean|ButtonText">
           <source xml:lang="en">&amp;Clean Client-Side Libraries</source>
-          <target state="translated">清除用戶端程式庫(&amp;C)</target>
+          <target state="translated">清理用戶端程式庫(&amp;C)</target>
         </trans-unit>
         <trans-unit id="RestoreOnBuild|ButtonText">
           <source xml:lang="en">Enable Restore Client-Side Libraries on Build...</source>
