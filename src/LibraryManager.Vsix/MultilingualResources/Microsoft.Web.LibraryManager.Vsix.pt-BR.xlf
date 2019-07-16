@@ -171,7 +171,7 @@ Deseja continuar?</target>
         </trans-unit>
         <trans-unit id="UnChecked" translate="yes" xml:space="preserve">
           <source>UnChecked {0} {1}</source>
-          <target state="translated">{0} {1} UnChecked</target>
+          <target state="translated">{0} {1} Desmarcado(a)</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">{0} indicates PackageItemType, which could be a file or a folder. {1} is the name of the file or folder</note>
         </trans-unit>
