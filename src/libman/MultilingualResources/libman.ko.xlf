@@ -61,8 +61,8 @@
         <trans-unit id="InstallCommandProviderSpecificLogic" translate="yes" xml:space="preserve">
           <source>    CDNJS libraries have a library ID format of “<it id="1" pos="open">&lt;libraryName&gt;</it>@<it id="2" pos="open">&lt;libraryVersion&gt;</it>”
     For CDNJS libraries, if no version is specified in the library ID, the highest version available is used.</source>
-          <target state="translated">    CDNJS 라이브러리의 라이브러리 ID 형식은 "&lt;libraryName&gt;@&lt;libraryVersion&gt;"입니다.
-    CDNJS 라이브러리의 경우 라이브러리 ID에서 버전을 지정하지 않으면 사용 가능한 최고 버전이 사용됩니다.</target>
+          <target state="translated">    CDNJS 라이브러리의 라이브러리 ID 형식은 "&lt;라이브러리 이름&gt;@&lt;라이브러리 버전&gt;"입니다.
+    CDNJS 라이브러리의 경우 라이브러리 ID에 버전을 지정하지 않으면 사용 가능한 최고 버전이 사용됩니다.</target>
         </trans-unit>
         <trans-unit id="InstallCommandRemarks" translate="yes" xml:space="preserve">
           <source>    Initializes a libman.json if one does not exist
@@ -127,8 +127,8 @@
         <trans-unit id="UnInstallCommandProviderSpecificLogic" translate="yes" xml:space="preserve">
           <source>    CDNJS libraries have a library ID format of “<it id="1" pos="open">&lt;libraryName&gt;</it>@<it id="2" pos="open">&lt;libraryVersion&gt;</it>”
     If no version is specified in the library ID, this command will act on any library with libraryName matching the given libraryId</source>
-          <target state="translated">    CDNJS 라이브러리의 라이브러리 ID 형식은 "&lt;libraryName&gt;@&lt;libraryVersion&gt;"입니다.
-    라이브러리 ID에서 버전을 지정하지 않으면 이 명령은 지정된 libraryId와 일치하는 libraryName을 사용하여 라이브러리에 적용됩니다.</target>
+          <target state="translated">    CDNJS 라이브러리의 라이브러리 ID 형식은 "&lt;라이브러리 이름&gt;@&lt;라이브러리 버전&gt;"입니다.
+    라이브러리 ID에 버전을 지정하지 않으면 지정된 라이브러리 ID와 일치하는 라이브러리 이름이 있는 모든 라이브러리에 이 명령이 실행됩니다.</target>
         </trans-unit>
         <trans-unit id="UnInstallCommandRemarks" translate="yes" xml:space="preserve">
           <source>    Error if no libman.json in current folder

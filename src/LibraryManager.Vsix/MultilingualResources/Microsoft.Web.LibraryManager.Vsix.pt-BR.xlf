@@ -165,7 +165,7 @@ Deseja continuar?</target>
         </trans-unit>
         <trans-unit id="Checked" translate="yes" xml:space="preserve">
           <source>Checked {0} {1}</source>
-          <target state="translated">O {0} {1} foi verificado</target>
+          <target state="translated">{0} {1} Marcado(a)</target>
           <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
           <note from="MultilingualBuild" annotates="source" priority="2">{0} indicates PackageItemType, which could be a file or a folder. {1} is the name of the file or folder</note>
         </trans-unit>
@@ -190,7 +190,7 @@ Deseja continuar?</target>
         </trans-unit>
         <trans-unit id="Indeterminate" translate="yes" xml:space="preserve">
           <source>Indeterminate {0} {1}</source>
-          <target state="translated">{0} {1} indeterminado</target>
+          <target state="translated">{0} {1} Indeterminado(a)</target>
           <note from="MultilingualBuild" annotates="source" priority="2">{0} indicates PackageItemType, which could be a file or a folder. {1} is the name of the file or folder</note>
         </trans-unit>
         <trans-unit id="File" translate="yes" xml:space="preserve">

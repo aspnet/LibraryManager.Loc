@@ -61,7 +61,7 @@
         <trans-unit id="InstallCommandProviderSpecificLogic" translate="yes" xml:space="preserve">
           <source>    CDNJS libraries have a library ID format of “<it id="1" pos="open">&lt;libraryName&gt;</it>@<it id="2" pos="open">&lt;libraryVersion&gt;</it>”
     For CDNJS libraries, if no version is specified in the library ID, the highest version available is used.</source>
-          <target state="translated">    CDNJS ライブラリのライブラリ ID の形式は "&lt;libraryName&gt;@&lt;libraryVersion&gt;" です
+          <target state="translated">    CDNJS ライブラリのライブラリ ID の形式は "&lt;ライブラリ名&gt;@&lt;ライブラリバージョン&gt;" です
     CDNJS ライブラリで、ライブラリ ID にバージョンが指定されていない場合、使用可能な最新のバージョンが使用されます。</target>
         </trans-unit>
         <trans-unit id="InstallCommandRemarks" translate="yes" xml:space="preserve">
@@ -127,8 +127,8 @@
         <trans-unit id="UnInstallCommandProviderSpecificLogic" translate="yes" xml:space="preserve">
           <source>    CDNJS libraries have a library ID format of “<it id="1" pos="open">&lt;libraryName&gt;</it>@<it id="2" pos="open">&lt;libraryVersion&gt;</it>”
     If no version is specified in the library ID, this command will act on any library with libraryName matching the given libraryId</source>
-          <target state="translated">    CDNJS ライブラリのライブラリ ID の形式は "&lt;libraryName&gt;@&lt;libraryVersion&gt;" です
-    ライブラリ ID にバージョンが指定されていない場合、このコマンドは、指定された libraryId に一致する libraryName を持つ任意のライブラリで動作します</target>
+          <target state="translated">    CDNJS ライブラリのライブラリ ID の形式は "&lt;ライブラリ名&gt;@&lt;ライブラリバージョン&gt;" です
+    ライブラリ ID にバージョンが指定されていない場合、このコマンドは、指定されたライブラリID に一致するライブラリ名を持つ任意のライブラリで動作します</target>
         </trans-unit>
         <trans-unit id="UnInstallCommandRemarks" translate="yes" xml:space="preserve">
           <source>    Error if no libman.json in current folder
