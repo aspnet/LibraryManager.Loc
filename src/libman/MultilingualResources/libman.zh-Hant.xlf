@@ -128,7 +128,7 @@
           <source>    CDNJS libraries have a library ID format of “<it id="1" pos="open">&lt;libraryName&gt;</it>@<it id="2" pos="open">&lt;libraryVersion&gt;</it>”
     If no version is specified in the library ID, this command will act on any library with libraryName matching the given libraryId</source>
           <target state="translated">    CDNJS 程式庫的程式庫識別碼格式為 “&lt;程式庫名稱&gt;@&lt;程式庫版本&gt;”
-    若程式庫識別碼中未指定任何版本，此命令將會對其 libraryName 符合指定 libraryId 的程式庫，進行動作</target>
+    若程式庫識別碼中未指定任何版本，此命令將會對其程式庫名稱符合指定程式庫識別碼的程式庫，進行動作</target>
         </trans-unit>
         <trans-unit id="UnInstallCommandRemarks" translate="yes" xml:space="preserve">
           <source>    Error if no libman.json in current folder
