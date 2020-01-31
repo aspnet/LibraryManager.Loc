@@ -167,7 +167,7 @@
         </trans-unit>
         <trans-unit id="CdnjsLibraryIdHintText" translate="yes" xml:space="preserve">
           <source>Example: <it id="1" pos="open">&lt;library&gt;</it>@<it id="2" pos="open">&lt;version&gt;</it></source>
-          <target state="translated">Esempio: <it id="1" pos="open">&lt;libreria&gt;</it>@<it id="2" pos="open">&lt;versione&gt;</it></target>
+          <target state="translated">Esempio: &lt;libreria&gt;@&lt;versione&gt;</target>
         </trans-unit>
         <trans-unit id="FileSystemLibraryIdHintText" translate="yes" xml:space="preserve">
           <source>Must be a valid filesystem path.</source>
@@ -175,7 +175,7 @@
         </trans-unit>
         <trans-unit id="UnpkgProviderHintText" translate="yes" xml:space="preserve">
           <source>Example: <it id="1" pos="open">&lt;library&gt;</it>@<it id="2" pos="open">&lt;version&gt;</it></source>
-          <target state="translated">Esempio: <it id="1" pos="open">&lt;libreria&gt;</it>@<it id="2" pos="open">&lt;versione&gt;</it></target>
+          <target state="translated">Esempio: &lt;libreria&gt;@&lt;versione&gt;</target>
         </trans-unit>
         <trans-unit id="LibraryDetail_Unavailable" translate="yes" xml:space="preserve">
           <source>Unavailable</source>
@@ -211,11 +211,11 @@
         </trans-unit>
         <trans-unit id="JsDelivrProviderHintText" translate="yes" xml:space="preserve">
           <source>Example: <it id="1" pos="open">&lt;library&gt;</it>@<it id="2" pos="open">&lt;version&gt;</it></source>
-          <target state="translated">Esempio: <it id="1" pos="open">&lt;libreria&gt;</it>@<it id="2" pos="open">&lt;versione&gt;</it></target>
+          <target state="translated">Esempio: &lt;libreria&gt;@&lt;versione&gt;</target>
         </trans-unit>
         <trans-unit id="DownloadingFile" translate="yes" xml:space="preserve">
           <source>Downloading file {0}...</source>
-          <target state="new">Downloading file {0}...</target>
+          <target state="translated">Download del file {0}...</target>
         </trans-unit>
       </group>
     </body>
