@@ -215,7 +215,7 @@
         </trans-unit>
         <trans-unit id="DownloadingFile" translate="yes" xml:space="preserve">
           <source>Downloading file {0}...</source>
-          <target state="new">Downloading file {0}...</target>
+          <target state="translated">正在下載檔案 {0}...</target>
         </trans-unit>
       </group>
     </body>
